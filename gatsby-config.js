@@ -5,7 +5,7 @@ require('dotenv').config();
 module.exports = {
   pathPrefix: '/blog',
   siteMetadata: {
-    siteUrl: 'https://www.apollographql.com/blog'
+    siteUrl: 'https://wikiexplain-blog.netlify.app'
   },
   plugins: [
     'gatsby-plugin-svgr',
