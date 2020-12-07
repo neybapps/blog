@@ -16,7 +16,7 @@ module.exports = {
       options: {
         url:
           process.env.WORDPRESS_URL_DEV ||
-          'https://wp.apollographql.com/graphql',
+          'http://104.154.128.71/graphql',
         debug: {
           graphql: {
             showQueryVarsOnError: true,
